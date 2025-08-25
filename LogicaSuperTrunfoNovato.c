@@ -112,9 +112,9 @@ int main(){
 
     //comparação entre as duas cartas
     if (pib1 > pib2){
-        printf("A carta numero 01 venceu");
+        printf("A carta numero 01 (%s) venceu \n", nome1);
     } else{
-        printf("A carta numero 02 venceu");
+        printf("A carta numero 02 (%s) venceu \n", nome2);
     }
      
     return 0;
