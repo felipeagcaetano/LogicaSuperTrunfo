@@ -112,39 +112,39 @@ int main(){
 
     //comparação entre as duas cartas
     if (populacao1 > populacao2){
-        printf("No quesito população a carta numero 01 (%s) venceu \n", nome1);
+        printf("No quesito população a carta numero 01 com %lu habitantes (%s) venceu \n", populacao1, nome1);
     } else{
-        printf("No quesito população a carta numero 02 (%s) venceu \n", nome2);
+        printf("No quesito população a carta numero 02 com %lu habitantes (%s) venceu \n", populacao2, nome2);
     }
 
     if (area1 > area2){
-        printf("No quesito área a carta numero 01 (%s) venceu \n", nome1);
+        printf("No quesito área a carta numero 01 com %f km² (%s) venceu \n", area1, nome1);
     } else{
-        printf("No quesito área a carta numero 02 (%s) venceu \n", nome2);
+        printf("No quesito área a carta numero 02 com %f km² (%s) venceu \n", area2, nome2);
     }
 
     if (pib1 > pib2){
-        printf("No quesito PIB a carta numero 01 (%s) venceu \n", nome1);
+        printf("No quesito PIB a carta numero 01 com R$ %f (%s) venceu \n", pib1, nome1);
     } else{
-        printf("No quesito PIB a carta numero 02 (%s) venceu \n", nome2);
+        printf("No quesito PIB a carta numero 02 com R$ %f (%s) venceu \n", pib2, nome2);
     }
     
     if (pontos1 > pontos2){
-        printf("No quesito pontos turísticos a carta numero 01 (%s) venceu \n", nome1);
+        printf("No quesito pontos turísticos a carta numero 01 com %d pontos turísticos (%s) venceu \n", pontos1, nome1);
     } else{
-        printf("No quesito pontos turísticos a carta numero 02 (%s) venceu \n", nome2);
+        printf("No quesito pontos turísticos a carta numero 02 com %d pontos turísticos (%s) venceu \n", pontos2, nome2);
     }
 
     if (pibpc1 > pibpc2){
-        printf("No quesito PIB per capita a carta numero 01 (%s) venceu \n", nome1);
+        printf("No quesito PIB per capita a carta numero 01 com R$ %f (%s) venceu \n", pibpc1, nome1);
     } else{
-        printf("No quesito PIB per capita a carta numero 02 (%s) venceu \n", nome2);
+        printf("No quesito PIB per capita a carta numero 02 com R$  %f (%s) venceu \n",pibpc2, nome2);
     }
 
     if (densidade1 < densidade2){
-        printf("No quesito densidade demográfica a carta numero 01 (%s) venceu \n", nome1);
+        printf("No quesito densidade demográfica a carta numero 01 com %f habitantes por km² (%s) venceu \n", densidade1, nome1);
     } else{
-        printf("No quesito densidade demográfica a carta numero 02 (%s) venceu \n", nome2);
+        printf("No quesito densidade demográfica a carta numero 02 com %f habitantes por km² (%s) venceu \n", densidade2, nome2);
     }
 
     return 0;
